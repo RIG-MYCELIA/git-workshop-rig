@@ -32,3 +32,5 @@ Als je dat wilt, kun je je profiel aanvullen. Klik hiervoor op **Edit Your Profi
    
 Check je mailbox. Als het goed is, heb je een mail van GitHub ontvangen met als onderwerp 'Please verify your email adress'.   
 Verifieer je e-mailadres door op de link in de mail te klikken. Dit is nodig, anders kun je in de volgende stap geen repository aanmaken.
+  
+[Volgende](3-aanmaken-van-een-nieuwe-repository.md)
