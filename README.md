@@ -21,6 +21,6 @@ Deze repository bevat materiaal voor de [workshop Git en GitHub voor beginners](
 &nbsp;&nbsp;5.1 Upstream remote aanmaken  
 &nbsp;&nbsp;5.2 Upstream en lokale repository samenvoegen    
 &nbsp;&nbsp;5.3 Conflicten oplossen
-&nbsp;&nbsp;5.3 Conflicten voorkomen      
+&nbsp;&nbsp;5.4 Conflicten voorkomen      
 
 [6. Materiaal voor verdere studie](6-materiaal-voor-verdere-studie.md)  
