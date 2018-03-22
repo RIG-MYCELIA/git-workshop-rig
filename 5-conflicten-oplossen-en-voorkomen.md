@@ -2,7 +2,7 @@ Pas het README.md bestand op je laptop aan. Voeg bijvoorbeeld een extra bullet t
 Voer nog geen commit uit!
     
     
-<img alt="README.md aanpassen" src="images/readme-aanpassen.png" width="300" />
+<img alt="README.md aanpassen" src="images/readme-aanpassen.png" width="400" />
    
 
 Wacht tot een aantal van de pull requests van deelnemers van de worskhop is samengevoegd met de repository van Kennisnetwerk Data Science.     
@@ -22,7 +22,7 @@ Check welke remotes al automatisch zijn aangemaakt door het volgende commando ui
 `git remote`
    
     
-<img alt="git remote" src="images/git-remote.png" width="300" />
+<img alt="git remote" src="images/git-remote.png" width="400" />
    
 
 De remote `origin` is dus al aangemaakt.    
@@ -31,7 +31,7 @@ Check waarnaar `origin` verwijst met behulp van het volgende commando:
 `git remote-url origin`
    
     
-<img alt="git remote get-url" src="images/git-remote-get-url.png" width="300" />
+<img alt="git remote get-url" src="images/git-remote-get-url.png" width="400" />
    
 
 `origin` verwijst inderdaad naar de deelnemerslijst repository onder je eigen GitHub account.
@@ -42,7 +42,7 @@ Maak nu de remote `upstream` aan met het volgende commando:
 `git remote add upstream https://github.com/kennisnetwerkdatascience/deelnemerslijst`     
    
     
-<img alt="git remote add" src="images/git-remote-add.png" width="300" />
+<img alt="git remote add" src="images/git-remote-add.png" width="400" />
    
 
 Verifieer dat de remote is aangemaakt en naar de juiste repository verwijst:
@@ -50,7 +50,7 @@ Verifieer dat de remote is aangemaakt en naar de juiste repository verwijst:
 `git remote get-url upstream`
    
     
-<img alt="git remote get-url upstream" src="images/git-remote-get-url-upstream.png" width="300" />
+<img alt="git remote get-url upstream" src="images/git-remote-get-url-upstream.png" width="400" />
    
 ## Stap 2: Upstream en lokale repository samenvoegen
 
@@ -64,7 +64,7 @@ Haal nu de bestanden uit de upstream repository op. Dit doe je met een `git fetc
      
 Voeg vervolgens deze bestanden vervolgens samen met die in de lokale repository:
 
-`git merge upstream/master
+`git merge upstream/master`
        
        
 <img alt="git merge" src="images/git-merge-abort.png" width="400" />
@@ -98,13 +98,13 @@ Open het README.md bestand.
 Git heeft automatisch regels toegevoegd aan het bestand om aan te geven waardoor het conflict wordt veroorzaakt.     
 De veranderingen in de upstream repository staan onder de conflict marker `<<<<<<< HEAD`.     
 Verderop zie je `=======`. Dit markeert de scheiding tussen wijzigingen in de upstream en lokale repository.     
-`>>>>>>> upstream/master` geeft het eind van de lijst met conflicten aan.     
+`>>>>>>> upstream/master` geeft het eind van de conflicten aan.     
     
 Pas nu het README.md bestand aan. Bepaal welke wijzigingen je wel of niet wilt behouden. Haal de conflict markers weg.
 
 Commit vervolgens de wijzigingen:     
 
-`git add README.md`
+`git add README.md`     
 `git commit -m 'Conflicten in README.md verholpen'`     
      
        
@@ -113,14 +113,13 @@ Commit vervolgens de wijzigingen:
      
 vraag informatie over de status van je lokale repository op :
 
-`git status
+`git status`
      
        
 <img alt="Status after fetch, merge and resolve conflicts" src="images/git-status-resolved.png" width="400" />
      
      
-Je krijgt nu een melding dat je lokale repository voorloopt op de deelnemerslijst repository onder je account op GitHub ('origin').    
-Dat klopt en is niet erg.     
+Je krijgt nu een melding dat je lokale repository voorloopt op de deelnemerslijst repository onder je account op GitHub.     
 Als je dat wilt, kun je de lokale repository naar de origin repository pushen, zoals we dat [aan het begin van de workshop](3-aanmaken-van-een-nieuwe-repository.md) ook gedaan hebben.
 
 ## Stap 4: Conflicten voorkomen
@@ -130,4 +129,4 @@ Zorg er voor dat je lokale repository up-to-date is, voordat je wijzingen doorvo
 Voer daarom éérst een `git fetch` en `git merge` commando uit en ga daarna pas aan de slag met het wijzigen van je lokale repository.   
 
 
-[Volgende]6-materiaal-voor-verdere-studie.md)
+[Volgende](6-materiaal-voor-verdere-studie.md)
