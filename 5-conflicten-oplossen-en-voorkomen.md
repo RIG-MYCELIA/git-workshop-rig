@@ -111,7 +111,7 @@ Commit vervolgens de wijzigingen:
 <img alt="Resolve conflicts" src="images/resolve-conflicts.png" width="400" />
      
      
-vraag informatie over de status van je lokale repository op :
+Vraag informatie over de status van je lokale repository op:
 
 `git status`
      
