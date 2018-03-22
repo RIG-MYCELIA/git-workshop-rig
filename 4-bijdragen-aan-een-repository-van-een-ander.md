@@ -99,3 +99,6 @@ Klik op de knop **Create pull request**.
    
 
 Wacht nu tot één van de GitHub beheerders van Kennisnetwerk Data Science je wijzigingen toevoegt aan de originele repository met een **Merge pull request**.    
+
+
+[Volgende](5-conflicten-oplossen-en-voorkomen.md)
