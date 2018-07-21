@@ -28,7 +28,7 @@ Check welke remotes al automatisch zijn aangemaakt door het volgende commando ui
 De remote `origin` is dus al aangemaakt.    
 Check waarnaar `origin` verwijst met behulp van het volgende commando:      
 
-`git remote-url origin`
+`git remote get-url origin`
    
     
 <img alt="git remote get-url" src="images/git-remote-get-url.png" width="400" />
