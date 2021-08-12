@@ -6,22 +6,16 @@ Deze repository bevat materiaal voor git workshops gegeven door het data team va
 
 [Aanmaken van een GitHub account](2-aanmaken-van-een-github-account.md)  
 
-TODO: [Aanmaken van een GitLab account]()
-
-[Aanmaken van een nieuwe repository](3-aanmaken-van-een-nieuwe-repository.md)  
+[Aanmaken van een nieuwe repository op GitHub](3-aanmaken-van-een-nieuwe-repository.md)  
 &nbsp;&nbsp;3.1 GitHub repository aanmaken    
 &nbsp;&nbsp;3.2 Lokale kopie aanmaken     
 &nbsp;&nbsp;3.3 Wijzigingen doorvoeren in de repository     
 
-[Forken van een bestaande repository](4-bijdragen-aan-een-repository-van-een-ander.md)  
+[Forken van een bestaande GitHub repository](4-bijdragen-aan-een-repository-van-een-ander.md)  
 &nbsp;&nbsp;4.1 GitHub repository forken  
 &nbsp;&nbsp;4.2 Lokale kopie aanmaken     
 &nbsp;&nbsp;4.3 Wijzigingen doorvoeren in de repository  
-&nbsp;&nbsp;4.4 Pull request aanmaken    
-
-TODO: [Clonen van een repository]()
-
-TODO: [Pull request aanmaken]()
+&nbsp;&nbsp;4.4 Pull request aanmaken
 
 [Conflicten oplossen en voorkomen](5-conflicten-oplossen-en-voorkomen.md)  
 &nbsp;&nbsp;5.1 Upstream remote aanmaken  
