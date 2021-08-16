@@ -1,33 +1,11 @@
-Je gaat nu een nieuwe repository aanmaken. Dit gaat in twee stappen.   
-Eerst maak je de remote repository aan op GitHub. Vervolgens maak je een lokale kopie op je computer.     
+Je gaat nu een nieuwe, lege, repository aanmaken. Dit gaat in twee stappen.   
+Eerst maak je de remote repository aan op GitLab/GitHub. Vervolgens maak je een lokale kopie op je computer.     
 Wijzigingen voer je eerst door op je lokale kopie en 'push' je dan naar de remote repository op GitHub.
 
-## Stap 1: GitHub repository aanmaken
-   
-Ga naar https://github.com/jouwGebruikersnaam
-   
-Zorg er voor dat je bent ingelogd op GitHub.
-   
-Klik op het plus-teken in de rechter bovenhoek.  
-Kies in het menu voor **New repository**.  
-   
-<img alt="New repository" src="images/new-repo-menu.png" width="300" />
-   
-Geeft de nieuwe repository een naam en omschrijving.  
-Maak de repository openbaar (**public**).  
-Vink de volgende optie aan: **Initialize this repository with a README**.  
-Klik vervolgens op **Create repository**. 
-   
-   
-<img alt="Create a new repository" src="images/new-repo-config.png" width="600" border="1" />
-   
-   
-Je hebt zojuist je eerste GitHub repository aangemaakt :-)
-   
-   
-<img alt="My first repo" src="images/my-first-repo.png" width="600" border="1" />
-   
-   
+## Stap 1: Nieuwe remote repository aanmaken
+[Nieuwe repository op Github](./aanmaken-nieuwe-repo-github.md)    
+[Nieuwe repository op Gitlab](./aanmaken-nieuwe-repo-gitlab.md)
+
 ## Stap 2: Lokale kopie aanmaken
 
 Open Git Bash.  
