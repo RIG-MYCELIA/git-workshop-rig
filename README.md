@@ -14,7 +14,7 @@ Deze repository bevat materiaal voor git workshops gegeven door het data team va
 - [Wijzigingen/toevoegingen aan de Git repo d.m.v. `add` en `commit`](./bestanden-toevoegen-aan-de-repo.md)   
 - [Lokale wijzigingen pushen naar een remote d.m.v. `push`](./push-naar-remote-repo.md)
 - [Remote wijzigingen pullen naar de lokale repo d.m.v. `pull` of `fetch`](#TODO)
-- [Een remote repo lokaal krijgen d.m.v. `clone`](#TODO)
+- [Een remote repo lokaal krijgen d.m.v. `clone`](./git-clone-repository.md)
 - [Een bestaande repo kopiëren d.m.v. `fork`](#TODO)
 - [Een branch aanmaken d.m.v. `branch`](#TODO)
 - [Een branch mergen d.m.v. `merge`](#TODO)
@@ -24,10 +24,16 @@ Deze repository bevat materiaal voor git workshops gegeven door het data team va
 
 
 
-[Aanmaken van een nieuwe repository op GitHub](3-aanmaken-van-een-nieuwe-repository.md)  
-&nbsp;&nbsp;3.1 GitHub repository aanmaken    
-&nbsp;&nbsp;3.2 Lokale kopie aanmaken     
-&nbsp;&nbsp;3.3 Wijzigingen doorvoeren in de repository     
+[Aanmaken van een nieuwe repository via Github/Gitlab](remote-aanmaken-van-een-nieuwe-repository.md)  
+&nbsp;&nbsp; Stap 1: GitHub repository aanmaken    
+&nbsp;&nbsp; Stap 2: Lokale kopie aanmaken (clonen)     
+&nbsp;&nbsp; Stap 3: Wijzigingen maken in de repository (add & commit)     
+&nbsp;&nbsp; Stap 4: Wijzigingen doorvoeren naar de remote repository (push)     
+
+[Een bestaand lokaal project in een Git repo en op Gitlab/Github zetten](./pushen-van-een-bestaand-lokaal-project.md)   
+&nbsp;&nbsp; Stap 1: Maak je lokale projectfolder een Git repo    
+&nbsp;&nbsp; Stap 2: Voeg bestanden toe aan je Git repo     
+&nbsp;&nbsp; Stap 3: Push je Git repo naar een remote     
 
 [Forken van een bestaande GitHub repository](4-bijdragen-aan-een-repository-van-een-ander.md)  
 &nbsp;&nbsp;4.1 GitHub repository forken  

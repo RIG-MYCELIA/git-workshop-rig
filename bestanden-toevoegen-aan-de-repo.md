@@ -1,10 +1,6 @@
 ## Voeg bestanden toe aan je Git repo
 
-Voor deze stappen heb je een git repo nodig. Deze kan je op één van de volgende manieren krijgen:  
-[Een bestaand project clonen]()  
-[Een bestaand project kopiëren (forken)]()  
-[Een lokaal project in een Git repo zetten]()  
-Een nieuw project aanmaken op [GitLab](./aanmaken-nieuwe-repo-gitlab.md) of [Github](./aanmaken-nieuwe-repo-github.md)  
+Je gebruikt de commando's `add` en `commit` om bestanden en wijzigingen toe te voegen aan de Git repo.  
 
 
 ### De areas van een Git repo

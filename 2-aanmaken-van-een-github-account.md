@@ -32,4 +32,4 @@ Let op: gebruik hetzelfde e-mailadres dat je geconfigureerd hebt in Git!
 7. Check je mailbox. Als het goed is, heb je een mail van GitHub ontvangen met als onderwerp 'Please verify your email adress'.   
 Verifieer je e-mailadres door op de link in de mail te klikken. Dit is nodig, anders kun je in de volgende stap geen repository aanmaken.
   
-[Volgende](3-aanmaken-van-een-nieuwe-repository.md)
+[Volgende](remote-aanmaken-van-een-nieuwe-repository.md)
