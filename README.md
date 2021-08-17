@@ -9,9 +9,10 @@ Deze repository bevat materiaal voor git workshops gegeven door het data team va
 
 ### Losse acties
 - [Nieuwe repository aanmaken op GitHub](./aanmaken-nieuwe-repo-github.md)   
-- [Nieuwe repository aanmaken op GitLab](./aanmaken-nieuwe-repo-gitlab.md)   
+- [Nieuwe repository aanmaken op GitLab](./aanmaken-nieuwe-repo-gitlab.md) 
+- [Lokaal een Git repo maken d.m.v. `init`](./lokale-git-init.md)  
 - [Wijzigingen/toevoegingen aan de Git repo d.m.v. `add` en `commit`](./bestanden-toevoegen-aan-de-repo.md)   
-- [Lokale wijzigingen pushen naar een remote d.m.v. `push`](#TODO)
+- [Lokale wijzigingen pushen naar een remote d.m.v. `push`](./push-naar-remote-repo.md)
 - [Remote wijzigingen pullen naar de lokale repo d.m.v. `pull` of `fetch`](#TODO)
 - [Een remote repo lokaal krijgen d.m.v. `clone`](#TODO)
 - [Een bestaande repo kopiëren d.m.v. `fork`](#TODO)
