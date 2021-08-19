@@ -2,48 +2,13 @@
 
 ## Stel je remote repository in
 
-#### Controleer of je repository al een remote heeft    
-
-Ga naar je projectdirectory:   
-`cd /path/to/project/`   
-
-Roep de ingestelde remotes in:   
-`git remote -v`   
-Als dit niks teruggeeft, dan heb je nog geen remote repository ingesteld. Anders zie je iets vergelijkbaar met dit:    
-```
-origin  git@github.com:[USERNAME]/[PROJECTNAAM].git (fetch)
-origin  git@github.com:[USERNAME]/[PROJECTNAAM].git (push)
-```  
-
-Als de URLs inderdaad overeenkomen met het bedoelde project en de bedoelde bestemming (Gitlab/Github), dan kan je door
-naar **Push je repository**
-
-#### Voeg een remote toe aan je lokale repository
-
-Op de hoofdpagina van je project (e.g. `www.github.com/[USERNAME]/[PROJECTNAME]`) op Github of Gitlab vind je een 
-dropdown menu knop:   
-**Clone** (Gitlab)   
-<img alt="Git areas" src="images/clone-knop-gitlab.png" width="600" />  
-of **Code** (Github)    
-<img alt="Git areas" src="images/clone-knop-github.png" width="600" />  
-
-In het clone dropdown menu kan je (o.a.) kiezen uit clonen met SSH of met HTTPS. Wanneer je nog geen ssh hebt ingesteld 
-gebruikt je de HTTPS URL.   
-Kopieer de URL en ga naar je Git Bash:   
-`git remote add origin [CLONE URL]`   
-
-Controleer of je remote is toegevoegd voor zowel `push` als `fetch`:   
-`git remote -v`   
-Je ziet iets vergelijkbaar met dit:    
-```
-origin  git@github.com:[USERNAME]/[PROJECTNAAM].git (fetch)
-origin  git@github.com:[USERNAME]/[PROJECTNAAM].git (push)
-```  
+Wanneer je voor het eerst pusht, kan het zijn dat de remote repository nog niet goed ingesteld is, zie 
+[Stel 1 of meerdere remote repositories in](./git-add-remotes.md) om dit in te controleren en in te stellen.
 
 ## Push je repository
 
-Nadat je bestanden of wijzigingen hebt toegevoegd aan je lokale repository 
-(Zie: [add en commit](./bestanden-toevoegen-aan-de-repo.md)) en een remote hebt ingesteld, 
+Nadat je [bestanden of wijzigingen hebt toegevoegd](./bestanden-toevoegen-aan-de-repo.md) aan je lokale repository 
+ en een [remote hebt ingesteld](./git-add-remotes.md), 
 kan je je repository pushen:   
 `git push origin main`   
 oftewel:   

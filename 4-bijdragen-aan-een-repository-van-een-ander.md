@@ -1,44 +1,21 @@
+# Werken met een geforkte repository
+
 Je gaat nu een kopie maken van een bestaande repository op GitHub en deze aanpassen.    
 Het gaat om een eenvoudig project: een overzicht van deelnemers aan deze workshop.   
 
-## Stap 1: GitHub repository forken
-   
-Ga naar https://github.com/KennisnetwerkDataScience/deelnemerslijst.    
-   
-Zorg er voor dat je bent ingelogd op GitHub.    
-   
-Klik op **Fork**. Deze knop vind je in de rechter bovenhoek van je scherm.    
-    
-    
-<img alt="Fork repository" src="images/git-fork.png" width="300" />
-   
-   
-Het kan even duren, maar uiteindelijk wordt er een kopie van de repository aangemaakt onder jouw eigen gebruikersnaam.    
-   
-   
-<img alt="Forked repository" src="images/git-fork-repo.png" width="600" border="1" />
+## Stap 1: GitHub/Gitlab repository forken
+
+Ga naar de repository die je wil forken (bijvoorbeeld deze workshop repo) en klik de *fork* knop rechtsbovenin.      
+Zie ook: [Repository forken](./fork-repository.md)
    
    
 ## Stap 2: Lokale kopie aanmaken
 
-De volgende stap is om een lokale kopie te maken op je computer.    
+De volgende stap is om een lokale kopie van jouw fork te maken op je computer d.m.v. `git clone [URL]`.   
+**Let op** :
+pak de URL van de repo onder je eigen account, niet die van de oorspronkelijke repo.
 
-Open Git Bash.  
-Navigeer naar de map waar je de repository wilt opslaan.      
-   
-`$ cd "D:/Jouw map naam"`    
-
-Kopieer de remote repository naar je lokale computer met het volgende commando:   
-
-`$ git clone https://github.com/jouwGebruikersnaam/deelnemerslijst.git`   
-   
-   
-<img alt="Clone deelnemerslijst" src="images/git-fork-clone.png" width="400" />
-   
-    
-Navigeer naar de lokale repository.   
-
-`$ cd "D:/Jouw map naam/deelnemerslijst"`
+Zie ook: [Een repository clonen](./git-clone-repository.md)
 
 
 ## Stap 3: Wijzigingen doorvoeren in de repository

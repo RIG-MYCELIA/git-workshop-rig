@@ -8,14 +8,20 @@ Deze repository bevat materiaal voor git workshops gegeven door het data team va
 
 
 ### Losse acties
+###### Een repo maken of krijgen
 - [Nieuwe repository aanmaken op GitHub](./aanmaken-nieuwe-repo-github.md)   
 - [Nieuwe repository aanmaken op GitLab](./aanmaken-nieuwe-repo-gitlab.md) 
 - [Lokaal een Git repo maken d.m.v. `init`](./lokale-git-init.md)  
+- [Een remote repo lokaal krijgen d.m.v. `clone`](./git-clone-repository.md)
+- [Een bestaande repo kopiëren d.m.v. `fork`](./fork-repository.md)
+    
+###### Werken met de repo  
+- [Een lokale repo koppelen aan een repo op Github/Gitlab d.m.v. `remote`](./git-add-remotes.md)
 - [Wijzigingen/toevoegingen aan de Git repo d.m.v. `add` en `commit`](./bestanden-toevoegen-aan-de-repo.md)   
 - [Lokale wijzigingen pushen naar een remote d.m.v. `push`](./push-naar-remote-repo.md)
 - [Remote wijzigingen pullen naar de lokale repo d.m.v. `pull` of `fetch`](#TODO)
-- [Een remote repo lokaal krijgen d.m.v. `clone`](./git-clone-repository.md)
-- [Een bestaande repo kopiëren d.m.v. `fork`](#TODO)
+  
+###### Samenwerken aan een repo
 - [Een branch aanmaken d.m.v. `branch`](#TODO)
 - [Een branch mergen d.m.v. `merge`](#TODO)
 - [Een merge conflict oplossen](#TODO)
@@ -23,8 +29,8 @@ Deze repository bevat materiaal voor git workshops gegeven door het data team va
 - [Een pull request aanmaken op GitLab](#TODO)
 
 
-
-[Aanmaken van een nieuwe repository via Github/Gitlab](remote-aanmaken-van-een-nieuwe-repository.md)  
+### Stappenplannen
+[Aanmaken van een nieuwe repository via Github/Gitlab](./remote-aanmaken-van-een-nieuwe-repository.md)  
 &nbsp;&nbsp; Stap 1: GitHub repository aanmaken    
 &nbsp;&nbsp; Stap 2: Lokale kopie aanmaken (clonen)     
 &nbsp;&nbsp; Stap 3: Wijzigingen maken in de repository (add & commit)     
