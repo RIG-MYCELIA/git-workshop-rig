@@ -21,11 +21,11 @@ Je kunt nu de lokale repository aanpassen d.m.v. `git add` en `git commit`.
 Je kunt mappen aanmaken en bestanden toevoegen.   
 Hiervoor kun je gewoon de Verkenner of andere programma's gebruiken.   
 
-Zie: [Bestanden toevoegen aan de repo d.m.v. add en commit](./bestanden-toevoegen-aan-de-repo.md)
+Zie: [Bestanden toevoegen aan de repo d.m.v. add en commit](git-add-and-commit-files.md)
 
 ## Stap 4: Wijzigingen doorvoeren naar de remote repository
 Als je zo ver bent, kun je alle commits van de lokale repository naar de remote repository op Github pushen d.m.v. `git push`.
    
-Zie: [Lokale Git repo pushen](./push-naar-remote-repo.md)
+Zie: [Lokale Git repo pushen](git-push-naar-remote-repo.md)
 
 Controleer of de remote repository op Github is aangepast.

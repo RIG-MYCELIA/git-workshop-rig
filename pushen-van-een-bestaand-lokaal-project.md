@@ -14,7 +14,7 @@ Zie aanvullende instructies hier:
 ## Stap 2: Voeg bestanden toe aan je Git repo
 Voeg bestanden toe aan de repo d.m.v. `git add` en `git commit`   
 Zie aanvullende instructies hier:
-[Voeg bestanden toe aan je repo](./bestanden-toevoegen-aan-de-repo.md)
+[Voeg bestanden toe aan je repo](git-add-and-commit-files.md)
 
 
 ## Stap 3: Push je Git repo naar een remote
@@ -33,7 +33,7 @@ Om een lokale repo te pushen naar een nieuw aangemaakt remote project zijn 2 sta
 
 2. Vervolgens stel je je nieuw aangemaakt project in als **remote** d.m.v. `git remote` en push je je repo d.m.v. `git push`.   
 Zie :
-[Lokale wijzigingen pushen naar een remote d.m.v. `push`](./push-naar-remote-repo.md)
+[Lokale wijzigingen pushen naar een remote d.m.v. `push`](git-push-naar-remote-repo.md)
 
 
 ### Push je lokale repo direct naar Gitlab via de command line

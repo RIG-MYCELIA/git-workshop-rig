@@ -6,7 +6,7 @@ Het gaat om een eenvoudig project: een overzicht van deelnemers aan deze worksho
 ## Stap 1: GitHub/Gitlab repository forken
 
 Ga naar de repository die je wil forken (bijvoorbeeld deze workshop repo) en klik de *fork* knop rechtsbovenin.      
-Zie ook: [Repository forken](./fork-repository.md)
+Zie ook: [Repository forken](fork-repository.md)
    
    
 ## Stap 2: Lokale kopie aanmaken

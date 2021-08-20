@@ -14,13 +14,13 @@ origin  git@github.com:[USERNAME]/[PROJECTNAAM].git (push)
 ```  
 
 Als de URLs inderdaad overeenkomen met het bedoelde project en de bedoelde bestemming (Gitlab/Github), dan kan je 
-wijzigingen aan de repo [pushen](./push-naar-remote-repo.md) d.m.v. `git push`.
+wijzigingen aan de repo [pushen](git-push-naar-remote-repo.md) d.m.v. `git push`.
 
 ## Voeg een remote toe aan je lokale repository
 ### Naamgeving van remotes
 Het is best practice om de hoofdrepo waar je naar toe wil pushen *origin* te noemen (i.e. `git remote add origin [CLONE URL]`).
 De term *upstream* wordt gebruikt 
-in het geval van een [geforkte repository](./fork-repository.md) om naar de oorspronkelijke repository te verwijzen. 
+in het geval van een [geforkte repository](fork-repository.md) om naar de oorspronkelijke repository te verwijzen. 
 Wanneer je met een [geclonede repo](./git-clone-repository.md) werkt die nooit geforked is, dan is je *upstream* gelijk 
 aan je *origin*    
 
@@ -28,7 +28,7 @@ Daarnaast kan je vrij andere remotes toevoegen, bijvoorbeeld wanneer je je repos
 beschikbaar wilt stellen of voor verschillende organisaties/groups binnen hetzelfde platform. Je kan remotes ook weer verwijderen
 of aanpassen, zie `git remote --help` voor alle opties.
 
-Wanneer je je wijzigingen [pusht](./push-naar-remote-repo.md) kan je de naam van de gewenste remote meegeven of je kan 
+Wanneer je je wijzigingen [pusht](git-push-naar-remote-repo.md) kan je de naam van de gewenste remote meegeven of je kan 
 een flag toevoegen om tegelijk te pushen naar alle beschikbare remotes, zie: `git push --help`. 
 
 ### Toevoegen van een remote

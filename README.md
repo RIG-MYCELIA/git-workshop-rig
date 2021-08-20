@@ -13,13 +13,13 @@ Deze repository bevat materiaal voor git workshops gegeven door het data team va
 - [Nieuwe repository aanmaken op GitLab](./aanmaken-nieuwe-repo-gitlab.md) 
 - [Lokaal een Git repo maken d.m.v. `init`](./lokale-git-init.md)  
 - [Een remote repo lokaal krijgen d.m.v. `clone`](./git-clone-repository.md)
-- [Een bestaande repo kopiëren d.m.v. `fork`](./fork-repository.md)
+- [Een bestaande repo kopiëren d.m.v. `fork`](fork-repository.md)
     
 ###### Werken met de repo  
 - [Een lokale repo koppelen aan een repo op Github/Gitlab d.m.v. `remote`](./git-add-remotes.md)
-- [Wijzigingen/toevoegingen aan de Git repo d.m.v. `add` en `commit`](./bestanden-toevoegen-aan-de-repo.md)   
-- [Lokale wijzigingen pushen naar een remote d.m.v. `push`](./push-naar-remote-repo.md)
-- [Remote wijzigingen pullen naar de lokale repo d.m.v. `pull` of `fetch`](#TODO)
+- [Wijzigingen/toevoegingen aan de Git repo d.m.v. `add` en `commit`](git-add-and-commit-files.md)   
+- [Lokale wijzigingen pushen naar een remote d.m.v. `push`](git-push-naar-remote-repo.md)
+- [Remote wijzigingen pullen naar de lokale repo d.m.v. `pull`](git-pull-from-remote.md)
   
 ###### Samenwerken aan een repo
 - [Een branch aanmaken d.m.v. `branch`](#TODO)
