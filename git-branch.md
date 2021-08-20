@@ -1,7 +1,9 @@
 # Een branch aanmaken
 
 Branches worden gebruikt om losstaande stukken functionaliteit te kunnen ontwikkelen en testen. Door deze functionaliteit
-in een aparte branch te zetten zit je je mede-ontwikkelaars niet in de weg met het pushen van veel losse commits. 
+in een aparte branch te zetten zit je je mede-ontwikkelaars niet in de weg met het pushen van veel losse commits. Zie het 
+als het samen maken van een verslag: Iedereen typt een hoofdstuk, maar je wil niet elke regel die je typt direct delen met 
+anderen. 
 
 Een branch is een aftakking van een versie van de repo. Het is gebruikelijk nieuwe branches af te takken vanaf de hoofdbranch
 (e.g. *main* of *master*). Het is ook mogelijk om een branch af te takken vanaf een sub-branch. Dit laatste is handig als je
