@@ -20,11 +20,11 @@ Deze repository bevat materiaal voor git workshops gegeven door het data team va
 - [Wijzigingen/toevoegingen aan de Git repo d.m.v. `add` en `commit`](git-add-and-commit-files.md)   
 - [Lokale wijzigingen pushen naar een remote d.m.v. `push`](git-push-naar-remote-repo.md)
 - [Remote wijzigingen pullen naar de lokale repo d.m.v. `pull`](git-pull-from-remote.md)
-  
+- [Een merge conflict oplossen](./git-merge-conflict.md)
+
 ###### Samenwerken aan een repo
 - [Een branch aanmaken d.m.v. `branch`](#TODO)
 - [Een branch mergen d.m.v. `merge`](#TODO)
-- [Een merge conflict oplossen](#TODO)
 - [Een pull request aanmaken op GitHub](#TODO)
 - [Een pull request aanmaken op GitLab](#TODO)
 
