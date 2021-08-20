@@ -23,7 +23,7 @@ Deze repository bevat materiaal voor git workshops gegeven door het data team va
 - [Een merge conflict oplossen](./git-merge-conflict.md)
 
 ###### Samenwerken aan een repo
-- [Een branch aanmaken d.m.v. `branch`](#TODO)
+- [Een branch aanmaken d.m.v. `branch`](./git-branch.md)
 - [Een branch mergen d.m.v. `merge`](#TODO)
 - [Een pull request aanmaken op GitHub](#TODO)
 - [Een pull request aanmaken op GitLab](#TODO)

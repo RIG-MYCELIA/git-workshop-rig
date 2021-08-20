@@ -19,7 +19,6 @@ of annuleren.
 You have unmerged paths.
   (fix conflicts and run "git commit")
   (use "git merge --abort" to abort the merge)
-
 ```
 
 2. Ga naar het bestand om het conflict te zien.    
