@@ -1,4 +1,4 @@
-## Maak lokaal een Git repo
+# Lokaal een Git repo maken d.m.v. init
 
 Hiermee kan je van je lokale directory/folder een Git repo maken d.m.v. het commando `init`.  
 Als je alleen wil oefenen, kan je hiervoor in je verkenner een folder aanmaken als zijnde een dummy project en daarin
@@ -53,3 +53,6 @@ Je kan je README bestand aanmaken m.b.v. een texteditor:
 - Type wat tekst over je project (dit kan altijd later nog aangevuld of aangepast worden)
 - Bij het opslaan plaats je het bestand in de hoofdfolder van je project en geef je het de naam `README.md` 
   (incl. de `*.md` extensie)
+  
+
+[HOME](./README.md)

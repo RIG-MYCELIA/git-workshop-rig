@@ -5,7 +5,8 @@ Ga naar https://gitlab.com/jouwGebruikersnaam
 Zorg er voor dat je bent ingelogd op GitLab.
    
 - Klik op het plus-teken in de bovenin.  
-- Kies in het menu voor **New project/repository**. 
+- Kies in het menu voor **New project/repository**. Wanneer je lid bent van 1 of meer groups, kan je de repo in een
+  group aanmaken. Hierdoor is de repo makkelijker vindbaar voor je collega's in die group.   
 - Kies de optie **create blank project**
    
 <img alt="New repository" src="images/gitlab_create_project_2.PNG" width="600" />

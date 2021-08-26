@@ -30,30 +30,38 @@ Deze repository bevat materiaal voor git workshops gegeven door het data team va
 
 
 ### Stappenplannen
-[Aanmaken van een nieuwe repository via Github/Gitlab](./remote-aanmaken-van-een-nieuwe-repository.md)  
+[Aanmaken van een nieuwe repository via Github/Gitlab](3-remote-aanmaken-van-een-nieuwe-repository.md)  
 &nbsp;&nbsp; Stap 1: GitHub repository aanmaken    
 &nbsp;&nbsp; Stap 2: Lokale kopie aanmaken (clonen)     
 &nbsp;&nbsp; Stap 3: Wijzigingen maken in de repository (add & commit)     
 &nbsp;&nbsp; Stap 4: Wijzigingen doorvoeren naar de remote repository (push)     
 
-[Een bestaand lokaal project in een Git repo en op Gitlab/Github zetten](./pushen-van-een-bestaand-lokaal-project.md)   
-&nbsp;&nbsp; Stap 1: Maak je lokale projectfolder een Git repo    
+[Een bestaand lokaal project in een Git repo en op Gitlab/Github zetten](4-pushen-van-een-bestaand-lokaal-project.md)   
+&nbsp;&nbsp; Stap 1: Maak je lokale projectfolder een Git repo        
 &nbsp;&nbsp; Stap 2: Voeg bestanden toe aan je Git repo     
 &nbsp;&nbsp; Stap 3: Push je Git repo naar een remote     
 
-[Forken van een bestaande GitHub repository](4-bijdragen-aan-een-repository-van-een-ander.md)  
-&nbsp;&nbsp;4.1 GitHub repository forken  
-&nbsp;&nbsp;4.2 Lokale kopie aanmaken     
-&nbsp;&nbsp;4.3 Wijzigingen doorvoeren in de repository  
-&nbsp;&nbsp;4.4 Pull request aanmaken
+[Werken met een geforkte repository](5-werken-met-een-geforkte-repo.md)  
+&nbsp;&nbsp;Stap 1: GitHub/Gitlab repository forken     
+&nbsp;&nbsp;Stap 2: Lokale kopie aanmaken    
+&nbsp;&nbsp;Stap 3: Wijzigingen doorvoeren in de repository  
+&nbsp;&nbsp;Stap 4: Pull request aanmaken    
 
-[Conflicten oplossen en voorkomen](5-conflicten-oplossen-en-voorkomen.md)  
+[Werken met branches](./6-werken-met-een-branch.md)     
+&nbsp;&nbsp;Stap 1: Maak een nieuwe branch aan     
+&nbsp;&nbsp;Stap 2: Maak wijzigingen aan in je branch     
+&nbsp;&nbsp;Stap 3: Merge je branch in de hoofdbranch:     
+&nbsp;&nbsp;&nbsp;&nbsp;Optie 1: Lokale merge    
+&nbsp;&nbsp;&nbsp;&nbsp;Optie 2: Pull/Merge request    
+
+
+[Conflicten oplossen en voorkomen](7-conflicten-oplossen-en-voorkomen.md)  
 &nbsp;&nbsp;5.1 Upstream remote aanmaken  
 &nbsp;&nbsp;5.2 Upstream en lokale repository samenvoegen    
 &nbsp;&nbsp;5.3 Conflicten oplossen     
 &nbsp;&nbsp;5.4 Conflicten voorkomen      
 
-[Materiaal voor verdere studie](6-materiaal-voor-verdere-studie.md)  
+[Materiaal voor verdere studie](8-materiaal-voor-verdere-studie.md)  
 
 
 #### Git op de commandline

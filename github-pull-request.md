@@ -34,7 +34,7 @@ Voor [geforkte repos](./fork-repository.md): Wanneer je een PR wil aanmaken voor
 upstream repo, dan kies je ook de base repository. Wanneer een repo geforkt is weet GitHub dat 
 en toont de optie om de juiste repository te kiezen:    
 
-<img alt="Comparing changes" src="images/comparing-changes.png" width="600" />
+<img alt="Comparing changes" src="images/github-PR-upstream-target.png" width="600" />
 
 
 ## Een PR (laten) reviewen

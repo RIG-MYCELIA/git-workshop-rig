@@ -21,8 +21,11 @@ Klik op **Fork**. Deze knop vind je in de rechter bovenhoek van je scherm.
 <img alt="Fork repository" src="images/git-fork.png" width="300" />
    
    
-Het kan even duren, maar uiteindelijk wordt er een kopie van de repository aangemaakt onder jouw eigen gebruikersnaam.    
+GitHub: Het kan even duren, maar uiteindelijk wordt er een kopie van de repository aangemaakt onder jouw eigen gebruikersnaam.   
+GitLab:  Na het klikken op *fork* krijg je een formulier te zien: Pas de projectnaam naar smaak aan, selecteer optioneel 
+een namespace en selecteer het visibility level. Klik daarna op *Fork project*
    
-Door op het getal achter *Fork* te klikken kan je inzien wie de repo allemaal geforked heeft   
+Door op het getal achter *Fork* te klikken kan je inzien wie de repo allemaal geforked heeft 
+(in GitLab is dit nummer alleen in de originele repo te zien)   
 <img alt="Forked repository" src="images/git-fork-repo.png" width="600" border="1" />    
 <img alt="Forke tree" src="images/github-fork-tree.png" width="600" border="1" />

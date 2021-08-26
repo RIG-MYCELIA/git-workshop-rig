@@ -30,7 +30,13 @@ De branch waar je naartoe wil mergen is de **target branch**
 - Klik op de knop **Create merge request**.    
 
 <img alt="Create merge request" src="images/gitlab-PR-create-PR.png" width="800" />
-   
+
+### PR aanmaken tussen geforkte repo's
+Voor [geforkte repos](./fork-repository.md): Wanneer je een PR wil aanmaken voor een merge tussen jouw repo en de 
+upstream repo, dan kies je ook de base repository. Wanneer een repo geforkt is weet GitLab dat 
+en toont de optie om de juiste repository te kiezen:    
+
+<img alt="Comparing changes" src="images/gitlab-PR-upstream-target.png" width="600" />
 
 ## Een merge request (laten) reviewen
 

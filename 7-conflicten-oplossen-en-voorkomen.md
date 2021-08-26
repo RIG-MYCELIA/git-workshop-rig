@@ -120,7 +120,7 @@ Vraag informatie over de status van je lokale repository op:
      
      
 Je krijgt nu een melding dat je lokale repository voorloopt op de deelnemerslijst repository onder je account op GitHub.     
-Als je dat wilt, kun je de lokale repository naar de origin repository pushen, zoals we dat [aan het begin van de workshop](remote-aanmaken-van-een-nieuwe-repository.md) ook gedaan hebben.
+Als je dat wilt, kun je de lokale repository naar de origin repository pushen, zoals we dat [aan het begin van de workshop](3-remote-aanmaken-van-een-nieuwe-repository.md) ook gedaan hebben.
 
 ## Stap 4: Conflicten voorkomen
 
@@ -129,4 +129,4 @@ Zorg er voor dat je lokale repository up-to-date is, voordat je wijzingen doorvo
 Voer daarom éérst een `git fetch` en `git merge` commando uit en ga daarna pas aan de slag met het wijzigen van je lokale repository.   
 
 
-[Volgende](6-materiaal-voor-verdere-studie.md)
+[Volgende](8-materiaal-voor-verdere-studie.md)
