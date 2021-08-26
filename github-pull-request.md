@@ -83,7 +83,7 @@ waarvan gevraagd wordt deze te mergen in de **target branch**. Op het tabblad *c
   <img alt="Approved" src="images/github-PR-approved.png" width="300" />
 
 - Onderin het *Conversations* scherm kan je je PR mergen. Er wordt aangegeven of er [merge conflicts](./git-merge-conflict.md)
-  zijn, zowel dan moet je die eerst oplossen voor de branch gemerged kan worden.    
+  zijn. Als er conflicten zijn, dan moet je die eerst oplossen voor de branch gemerged kan worden.    
   Wanneer je niet zo bekend bent met Git kan je bij het mergen van de pull request voor de simpelste optie kiezen in de dropdown:
   *Create merge commit*: Klik *merge pull request* -> klik *confirm merge*.    
   Je kan altijd in een later stadium nog branches verwijderen of commits rebasen. Ook daarover kan je in je team afspraken maken.

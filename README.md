@@ -25,8 +25,8 @@ Deze repository bevat materiaal voor git workshops gegeven door het data team va
 ###### Samenwerken aan een repo
 - [Een branch aanmaken d.m.v. `branch`](./git-branch.md)
 - [Een branch mergen d.m.v. `merge`](./git-merge-branch.md)
-- [Een pull request aanmaken op GitHub](#TODO)
-- [Een pull request aanmaken op GitLab](#TODO)
+- [Een pull request aanmaken op GitHub](./github-pull-request.md)
+- [Een pull request aanmaken op GitLab](./gitlab-pull-request.md)
 
 
 ### Stappenplannen
