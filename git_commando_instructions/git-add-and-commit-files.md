@@ -5,7 +5,7 @@ Je gebruikt de commando's `add` en `commit` om bestanden en wijzigingen toe te v
 
 ### De areas van een Git repo
 
-<img alt="Git areas" src="images/git_areas.png" width="400" />  
+<img alt="Git areas" src="../images/git_areas.png" width="400" />  
 
 **Working directory**: Plek waar je lokaal nieuwe bestanden/folders toevoegt of wijzigt.
 De *.git/* folder staat in de hoofdfolder van je working directory. Bestanden en folders in en onder je hoofdfolder worden 
@@ -29,7 +29,7 @@ Dit doe je met behulp van het volgende commando:
 `$ git status`
    
    
-<img alt="Status before commit" src="images/new-repo-status.png" width="400" />
+<img alt="Status before commit" src="../images/new-repo-status.png" width="400" />
 
 In het rood zie je de wijzigingen in de *Working directory*.  
 In het geval van een nieuwe Git repo staan er alleen bestanden onder *Untracked files*.
@@ -46,7 +46,7 @@ Voer nogmaals het `git status` commando uit om te verifiëren dat alle wijziging
 en worden meegenomen in de commit.
    
 
-<img alt="Status after add" src="images/new-repo-status-after-add.png" width="400" />   
+<img alt="Status after add" src="../images/new-repo-status-after-add.png" width="400" />   
    
 
 ### Bestanden uit de staging area in de Git repository zetten (committen)
@@ -62,7 +62,7 @@ erachter tussen de aanhalingstekens:
 `$ git commit -m "Mijn eerste aanpassingen"`
    
 
-<img alt="Commit" src="images/new-repo-commit.png" width="400" />   
+<img alt="Commit" src="../images/new-repo-commit.png" width="400" />   
     
    
 
@@ -70,10 +70,12 @@ erachter tussen de aanhalingstekens:
 Wanneer je enkel `git commit` uitvoert, wordt de default editor die je voor git gekozen hebt geopend.  
 Wanneer je je default editor niet hebt aangepast is dit de *vim* editor:
 
-<img alt="Commit vim" src="images/git-commit-vim.png" width="400" />  
+<img alt="Commit vim" src="../images/git-commit-vim.png" width="400" />  
 
 Om je commitmessage te typen in *vim* en er weer uit te komen, doe je het volgende:   
 - type `i` (insert)
 - type je commit message
 - type `esc` (ga uit de insert modus)
 - type `:wq` (write & quit)
+
+[HOME](../README.md)

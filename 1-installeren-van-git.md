@@ -61,4 +61,4 @@ Als je 'commit' sla je de status van je project op in Git.
 De `user.name` is vrij te kiezen, maar wanneer je een platform zoals Gitlab of Github gebruikt moet de `user.email` gelijk zijn aan het 
 emailadres waarmee je op dat platform geregistreerd bent. 
 
-[Volgende](2-aanmaken-van-een-github-account.md)
+[HOME](./README.md)

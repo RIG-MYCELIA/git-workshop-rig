@@ -15,9 +15,9 @@ wilt doorwerken op een stuk functionaliteit dat jij of een mede-ontwikkelaar al 
 
 Je kan de lijst met bestaande branches zien door `git branch` of `git branch --list` uit te voeren   
 
-<img alt="git merge" src="images/git-list-and-checkout-branch.png" width="400" />   
+<img alt="git merge" src="../images/git-list-and-checkout-branch.png" width="400" />   
 
-2. Zorg dat de branch waar je van aftakt up to date is door te [pullen](./git-pull-from-remote.md) met `git pull`
+2. Zorg dat de branch waar je van aftakt up to date is door te [pullen](git-pull-from-remote.md) met `git pull`
 
 
 3. Maak een nieuwe branch aan   
@@ -31,3 +31,6 @@ Je kan vervolgens naar je branch toe d.m.v.:
 
 Alternatief kan je een nieuwe branch aanmaken en direct uitchecken d.m.v.:     
 `git checkout -b [nieuwe_branch_naam]`
+
+
+[HOME](../README.md)

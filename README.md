@@ -27,24 +27,24 @@ Let erop dat in de Windows *cmd* de paden back slashes `\` ipv forward slashes `
 
 ### Losse acties
 #### Een repo maken of krijgen
-- [Nieuwe repository aanmaken op GitHub](./aanmaken-nieuwe-repo-github.md)   
-- [Nieuwe repository aanmaken op GitLab](./aanmaken-nieuwe-repo-gitlab.md) 
-- [Lokaal een Git repo maken d.m.v. `init`](./lokale-git-init.md)  
-- [Een remote repo lokaal krijgen d.m.v. `clone`](./git-clone-repository.md)
-- [Een bestaande repo kopiëren d.m.v. `fork`](fork-repository.md)
+- [Nieuwe repository aanmaken op GitHub](git_commando_instructions/aanmaken-nieuwe-repo-github.md)   
+- [Nieuwe repository aanmaken op GitLab](git_commando_instructions/aanmaken-nieuwe-repo-gitlab.md) 
+- [Lokaal een Git repo maken d.m.v. `init`](git_commando_instructions/lokale-git-init.md)  
+- [Een remote repo lokaal krijgen d.m.v. `clone`](git_commando_instructions/git-clone-repository.md)
+- [Een bestaande repo kopiëren d.m.v. `fork`](git_commando_instructions/fork-repository.md)
     
 #### Werken met de repo  
-- [Een lokale repo koppelen aan een repo op Github/Gitlab d.m.v. `remote`](./git-add-remotes.md)
-- [Wijzigingen/toevoegingen aan de Git repo d.m.v. `add` en `commit`](git-add-and-commit-files.md)   
-- [Lokale wijzigingen pushen naar een remote d.m.v. `push`](git-push-naar-remote-repo.md)
-- [Remote wijzigingen pullen naar de lokale repo d.m.v. `pull`](git-pull-from-remote.md)
-- [Een merge conflict oplossen](./git-merge-conflict.md)
+- [Een lokale repo koppelen aan een repo op Github/Gitlab d.m.v. `remote`](git_commando_instructions/git-add-remotes.md)
+- [Wijzigingen/toevoegingen aan de Git repo d.m.v. `add` en `commit`](git_commando_instructions/git-add-and-commit-files.md)   
+- [Lokale wijzigingen pushen naar een remote d.m.v. `push`](git_commando_instructions/git-push-naar-remote-repo.md)
+- [Remote wijzigingen pullen naar de lokale repo d.m.v. `pull`](git_commando_instructions/git-pull-from-remote.md)
+- [Een merge conflict oplossen](git_commando_instructions/git-merge-conflict.md)
 
 #### Samenwerken aan een repo
-- [Een branch aanmaken d.m.v. `branch`](./git-branch.md)
-- [Een branch mergen d.m.v. `merge`](./git-merge-branch.md)
-- [Een pull request aanmaken op GitHub](./github-pull-request.md)
-- [Een pull request aanmaken op GitLab](./gitlab-pull-request.md)
+- [Een branch aanmaken d.m.v. `branch`](git_commando_instructions/git-branch.md)
+- [Een branch mergen d.m.v. `merge`](git_commando_instructions/git-merge-branch.md)
+- [Een pull request aanmaken op GitHub](git_commando_instructions/github-pull-request.md)
+- [Een pull request aanmaken op GitLab](git_commando_instructions/gitlab-pull-request.md)
 
 
 ### Stappenplannen

@@ -21,7 +21,7 @@ wijzigingen aan de repo [pushen](git-push-naar-remote-repo.md) d.m.v. `git push`
 Het is best practice om de hoofdrepo waar je naar toe wil pushen *origin* te noemen (i.e. `git remote add origin [CLONE URL]`).
 De term *upstream* wordt gebruikt 
 in het geval van een [geforkte repository](fork-repository.md) om naar de oorspronkelijke repository te verwijzen. 
-Wanneer je met een [geclonede repo](./git-clone-repository.md) werkt die nooit geforked is, dan is je *upstream* gelijk 
+Wanneer je met een [geclonede repo](git-clone-repository.md) werkt die nooit geforked is, dan is je *upstream* gelijk 
 aan je *origin*    
 
 Daarnaast kan je vrij andere remotes toevoegen, bijvoorbeeld wanneer je je repository op zowel gitlab als github 
@@ -35,9 +35,9 @@ een flag toevoegen om tegelijk te pushen naar alle beschikbare remotes, zie: `gi
 Op de hoofdpagina van je project (e.g. `www.github.com/[USERNAME]/[PROJECTNAME]`) op Github of Gitlab vind je een 
 dropdown menu knop:   
 **Clone** (Gitlab)   
-<img alt="Git areas" src="images/clone-knop-gitlab.png" width="600" />  
+<img alt="Git areas" src="../images/clone-knop-gitlab.png" width="600" />  
 of **Code** (Github)    
-<img alt="Git areas" src="images/clone-knop-github.png" width="600" />  
+<img alt="Git areas" src="../images/clone-knop-github.png" width="600" />  
 
 In het clone dropdown menu kan je (o.a.) kiezen uit clonen met SSH of met HTTPS. Wanneer je nog geen ssh hebt ingesteld 
 gebruikt je de HTTPS URL.   
@@ -53,3 +53,5 @@ Je ziet iets vergelijkbaar met dit:
 origin  git@github.com:[USERNAME]/[PROJECTNAAM].git (fetch)
 origin  git@github.com:[USERNAME]/[PROJECTNAAM].git (push)
 ```  
+
+[HOME](../README.md)

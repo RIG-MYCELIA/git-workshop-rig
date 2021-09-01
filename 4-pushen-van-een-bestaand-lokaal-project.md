@@ -9,12 +9,12 @@ maken op het platform naar keuze.
 
 Maak je lokale project een Git repo d.m.v. `git init` en voeg een README.md toe.   
 Zie aanvullende instructies hier: 
-[Lokaal een Git repo maken d.m.v. `init`](./lokale-git-init.md)  
+[Lokaal een Git repo maken d.m.v. `init`](git_commando_instructions/lokale-git-init.md)  
   
 ## Stap 2: Voeg bestanden toe aan je Git repo
 Voeg bestanden toe aan de repo d.m.v. `git add` en `git commit`   
 Zie aanvullende instructies hier:
-[Voeg bestanden toe aan je repo](git-add-and-commit-files.md)
+[Voeg bestanden toe aan je repo](git_commando_instructions/git-add-and-commit-files.md)
 
 
 ## Stap 3: Push je Git repo naar een remote
@@ -28,12 +28,12 @@ Alternatief kan je in het geval van GitLab de repository direct sturen d.m.v. ee
 Om een lokale repo te pushen naar een nieuw aangemaakt remote project zijn 2 stappen nodig: 
 
 1. Maak eerst een remote repository aan op Gitlab of Github. Zorg ervoor dat je deze **zonder README** aanmaakt.   
-[Nieuwe repository aanmaken op Github](./aanmaken-nieuwe-repo-github.md)   
-[Nieuwe repository aanmaken op Gitlab](./aanmaken-nieuwe-repo-gitlab.md)   
+[Nieuwe repository aanmaken op Github](git_commando_instructions/aanmaken-nieuwe-repo-github.md)   
+[Nieuwe repository aanmaken op Gitlab](git_commando_instructions/aanmaken-nieuwe-repo-gitlab.md)   
 
 2. Vervolgens stel je je nieuw aangemaakt project in als **remote** d.m.v. `git remote` en push je je repo d.m.v. `git push`.   
 Zie :
-[Lokale wijzigingen pushen naar een remote d.m.v. `push`](git-push-naar-remote-repo.md)
+[Lokale wijzigingen pushen naar een remote d.m.v. `push`](git_commando_instructions/git-push-naar-remote-repo.md)
 
 
 ### Push je lokale repo direct naar Gitlab via de command line
@@ -56,6 +56,6 @@ Simpeler gezegd kan je het commando dus als volgt vormgeven:
 Voer dit commando uit in de hoofdfolder van je project (i.e. waar ook de **.git/** folder staat) en vanuit je hoofdbranch (vaak **main**)
  
 
-
+[HOME](./README.md)
 
 

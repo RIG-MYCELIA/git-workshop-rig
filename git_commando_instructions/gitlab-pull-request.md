@@ -18,25 +18,25 @@ De branch waar je naartoe wil mergen is de **target branch**
 
 - Ga in GitLab in je repo naar het tabblad *Merge requests* en klik op de blauwe knop: *New merge request*
 
-<img alt="Nieuwe PR" src="images/gitlab-PR-new-pull-request.png" width="800" />
+<img alt="Nieuwe PR" src="../images/gitlab-PR-new-pull-request.png" width="800" />
 
 - Kies je target en source branch
 
-  <img alt="Kies branches voor PR" src="images/gitlab-PR-compare-branch.png" width="800" />
+  <img alt="Kies branches voor PR" src="../images/gitlab-PR-compare-branch.png" width="800" />
 
 - Geef een titel (zonder *Draft:*) en een beschrijving op voor je merge request.    
 - Selecteer eventueel alvast de reviewer(s)
 - (de)selecteer merge opties afhankelijk van gemaakte afspraken in het team  
 - Klik op de knop **Create merge request**.    
 
-<img alt="Create merge request" src="images/gitlab-PR-create-PR.png" width="800" />
+<img alt="Create merge request" src="../images/gitlab-PR-create-PR.png" width="800" />
 
 ### PR aanmaken tussen geforkte repo's
-Voor [geforkte repos](./fork-repository.md): Wanneer je een PR wil aanmaken voor een merge tussen jouw repo en de 
+Voor [geforkte repos](fork-repository.md): Wanneer je een PR wil aanmaken voor een merge tussen jouw repo en de 
 upstream repo, dan kies je ook de base repository. Wanneer een repo geforkt is weet GitLab dat 
 en toont de optie om de juiste repository te kiezen:    
 
-<img alt="Comparing changes" src="images/gitlab-PR-upstream-target.png" width="600" />
+<img alt="Comparing changes" src="../images/gitlab-PR-upstream-target.png" width="600" />
 
 ## Een merge request (laten) reviewen
 
@@ -45,7 +45,7 @@ en toont de optie om de juiste repository te kiezen:
   op je repo.    
 Hoeveel reviewers je kiest hangt af van de afspraken die je in je team maakt en de instellingen van je repository.
   
-<img alt="Add reviewers" src="images/gitlab-PR-add-reviewer.png" width="800" />
+<img alt="Add reviewers" src="../images/gitlab-PR-add-reviewer.png" width="800" />
 
 Onder het tabblad *Changes* vind je het eindresultaat van alle commits in de branch. Oftewel, de veranderingen
 waarvan gevraagd wordt deze te mergen in de **target branch**. Op het tabblad *commits* kan je individuele commits inzien.
@@ -58,7 +58,7 @@ waarvan gevraagd wordt deze te mergen in de **target branch**. Op het tabblad *c
   wijzigingen langs zult gaan kan je ook een enkel comment achterlaten. Hierover kan je afspraken maken in je team en/of 
   je persoonlijke voorkeur aanhouden.
 
-  <img alt="Add comment" src="images/gitlab-PR-comment.png" width="800" />
+  <img alt="Add comment" src="../images/gitlab-PR-comment.png" width="800" />
 
 - Om de persoon die de merge request geopend heeft te laten weten dat je klaar bent met je review kan je een losse comment
   op de *Overview* pagina plaatsen of je kan de merge *approven* met de approve knop.    
@@ -68,7 +68,7 @@ waarvan gevraagd wordt deze te mergen in de **target branch**. Op het tabblad *c
   Zonder approve geef je aan dat je na het verwerken van jouw feedback nog een blik wil werpen op de wijzigingen
   alvorens je je approval geeft.
 
-  <img alt="Finish review" src="images/gitlab-PR-finalize-review.png" width="600" />
+  <img alt="Finish review" src="../images/gitlab-PR-finalize-review.png" width="600" />
 
 
 
@@ -83,9 +83,9 @@ waarvan gevraagd wordt deze te mergen in de **target branch**. Op het tabblad *c
 
 - Je kan rechts in het *Overview* scherm zien wanneer de reviewers klaar zijn met de review en de wijzigingen 
   *approved* hebben (groen vinkje). 
-  <img alt="Approved" src="images/gitlab-PR-approved.png" width="300" />
+  <img alt="Approved" src="../images/gitlab-PR-approved.png" width="300" />
 
-- Onderin het *Overview* scherm kan je je merge request mergen. Er wordt aangegeven of er [merge conflicts](./git-merge-conflict.md)
+- Onderin het *Overview* scherm kan je je merge request mergen. Er wordt aangegeven of er [merge conflicts](git-merge-conflict.md)
   zijn d.m.v. een groen vinkje of kruis voor de *Merge* knop. Als er conflicten zijn, dan moet je die eerst oplossen 
   voor de branch gemerged kan worden.    
   Wanneer je niet zo bekend bent met Git kan je bij het mergen van de merge request voor de default opties kiezen en
@@ -93,8 +93,10 @@ waarvan gevraagd wordt deze te mergen in de **target branch**. Op het tabblad *c
   Als je opties gedeselecteerd hebt kan je altijd in een later stadium nog branches verwijderen of commits rebasen. 
   Ook daarover kan je in je team afspraken maken.
   
-  <img alt="Finish review" src="images/gitlab-PR-finalize-review.png" width="600" />
+  <img alt="Finish review" src="../images/gitlab-PR-finalize-review.png" width="600" />
 
 
 Je branch is nu gemerged in de target branch! 
-Vergeet de target branch niet lokaal te [pullen](./git-pull-from-remote.md).
+Vergeet de target branch niet lokaal te [pullen](git-pull-from-remote.md).
+
+[HOME](../README.md)

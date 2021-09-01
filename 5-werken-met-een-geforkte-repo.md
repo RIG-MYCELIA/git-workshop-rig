@@ -9,7 +9,7 @@ Forken verschilt van clonen in dat er bij forken meerdere remote repositories on
 ## Stap 1: GitHub/Gitlab repository forken
 
 Ga naar de repository die je wil forken (bijvoorbeeld deze workshop repo) en klik de *fork* knop rechtsbovenin.      
-Zie ook: [Repository forken](fork-repository.md)
+Zie ook: [Repository forken](git_commando_instructions/fork-repository.md)
    
    
 ## Stap 2: Lokale kopie aanmaken
@@ -18,7 +18,7 @@ De volgende stap is om een lokale kopie van jouw fork te maken op je computer d.
 **Let op** :
 pak de URL van de repo onder je eigen account, niet die van de oorspronkelijke repo.
 
-Zie ook: [Een repository clonen](./git-clone-repository.md)
+Zie ook: [Een repository clonen](git_commando_instructions/git-clone-repository.md)
 
 
 ## Stap 3: Wijzigingen doorvoeren in de repository
@@ -28,7 +28,7 @@ Hernoem het bestand naar `deelnemer_[jouw initialen of naam].md` en pas de inhou
 bestand bijvoorbeeld je favoriete quote bevat.     
 
 Ga terug naar Git Bash en voeg het bestand en de wijzigingen toe aan de Git repo d.m.v. `git add` en `git commit`.    
-Zie ook: [bestanden toevoegen aan de repo](./git-add-and-commit-files.md)
+Zie ook: [bestanden toevoegen aan de repo](git_commando_instructions/git-add-and-commit-files.md)
  
 Verifieer op GitLab/GitHub dat je deelnemersbestand in je remote repository terecht is gekomen.    
 
@@ -38,8 +38,8 @@ Verifieer op GitLab/GitHub dat je deelnemersbestand in je remote repository tere
 Je gaat nu een pull request (GitHub) of merge request (GitLab) aanmaken om de beheerders van de 'upstream' repository te 
 verzoeken jouw aanvullingen door te voeren in hun repository.    
    
-Maak hiervoor een [pull request (GitHub)](./github-pull-request.md) of 
-[merge request (GitLab)](./gitlab-pull-request.md) aan met jouw fork als **source branch** en de upstream (originele)
+Maak hiervoor een [pull request (GitHub)](git_commando_instructions/github-pull-request.md) of 
+[merge request (GitLab)](git_commando_instructions/gitlab-pull-request.md) aan met jouw fork als **source branch** en de upstream (originele)
 repo als **target branch**
    
 

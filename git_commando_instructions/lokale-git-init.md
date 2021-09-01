@@ -55,4 +55,4 @@ Je kan je README bestand aanmaken m.b.v. een texteditor:
   (incl. de `*.md` extensie)
   
 
-[HOME](./README.md)
+[HOME](../README.md)

@@ -2,7 +2,7 @@
 
 Wanneer er meerdere wijzigingen plaatsvinden op dezelfde plek in hetzelfde bestand, dan weet Git niet welke wijziging
 behouden moet worden en kan Git deze wijzigingen niet meer automatisch samenvoegen. Dit noemen we een *merge conflict*. 
-*Merge conflicten* kunnen ontstaan wanneer je twee verschillende branches merged, maar ook wanneer je wijzigingen [pullt](./git-pull-from-remote.md).
+*Merge conflicten* kunnen ontstaan wanneer je twee verschillende branches merged, maar ook wanneer je wijzigingen [pullt](git_commando_instructions/git-pull-from-remote.md).
 
 
 Pas het README.md bestand op je laptop aan. Voeg bijvoorbeeld een extra bullet toe met een tekstje.     

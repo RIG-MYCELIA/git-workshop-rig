@@ -18,23 +18,23 @@ De branch waar je naartoe wil mergen is de **target branch**
 
 - Ga in GitHub in je repo naar het tabblad *Pull requests* en klik op de groene knop: *New pull request*
 
-<img alt="Nieuwe PR" src="images/github-PR-new-pull-request.png" width="800" />
+<img alt="Nieuwe PR" src="../images/github-PR-new-pull-request.png" width="800" />
 
 - Kies je target en source branch
 
-  <img alt="Kies branches voor PR" src="images/github-PR-compare-branch.png" width="800" />
+  <img alt="Kies branches voor PR" src="../images/github-PR-compare-branch.png" width="800" />
 
 - Geef een onderwerp en beschrijving op voor je pull request.    
 - Klik op de knop **Create pull request**.    
 
-<img alt="Create pull request" src="images/create-pull-request.png" width="400" />
+<img alt="Create pull request" src="../images/create-pull-request.png" width="400" />
    
 ### PR aanmaken tussen geforkte repo's
-Voor [geforkte repos](./fork-repository.md): Wanneer je een PR wil aanmaken voor een merge tussen jouw repo en de 
+Voor [geforkte repos](fork-repository.md): Wanneer je een PR wil aanmaken voor een merge tussen jouw repo en de 
 upstream repo, dan kies je ook de base repository. Wanneer een repo geforkt is weet GitHub dat 
 en toont de optie om de juiste repository te kiezen:    
 
-<img alt="Comparing changes" src="images/github-PR-upstream-target.png" width="600" />
+<img alt="Comparing changes" src="../images/github-PR-upstream-target.png" width="600" />
 
 
 ## Een PR (laten) reviewen
@@ -43,7 +43,7 @@ en toont de optie om de juiste repository te kiezen:
   reviewers kiezen door op *Reviewers* te klikken.
 Hoeveel reviewers je kiest hangt af van de afspraken die je in je team maakt en de instellingen van je repository.
   
-<img alt="Add reviewers" src="images/github-PR-add-reviewer.png" width="800" />
+<img alt="Add reviewers" src="../images/github-PR-add-reviewer.png" width="800" />
 
 Onder het tabblad *Files changed* vind je het eindresultaat van alle commits in de branch. Oftewel, de veranderingen
 waarvan gevraagd wordt deze te mergen in de **target branch**. Op het tabblad *commits* kan je individuele commits inzien.
@@ -56,7 +56,7 @@ waarvan gevraagd wordt deze te mergen in de **target branch**. Op het tabblad *c
   wijzigingen langs zult gaan kan je ook een enkel comment achterlaten. Hierover kan je afspraken maken in je team of 
   gewoon je persoonlijke voorkeur aanhouden.
 
-  <img alt="Add comment" src="images/github-PR-comment.png" width="800" />
+  <img alt="Add comment" src="../images/github-PR-comment.png" width="800" />
 
 - Om de persoon die de PR geopend heeft te laten weten dat je klaar bent met je review kan je rechtsbovening op *review changes*
   of *finish review* (in het geval van een gestart review proces) klikken. Dit geeft een aantal opties, zoals op de 
@@ -67,7 +67,7 @@ waarvan gevraagd wordt deze te mergen in de **target branch**. Op het tabblad *c
   Met *Request changes* geef je aan dat je na het verwerken van jouw feedback nog een blik wil werpen op de wijzigingen
   alvorens je je approval geeft.
 
-  <img alt="Finish review" src="images/github-PR-finalize-review.png" width="600" />
+  <img alt="Finish review" src="../images/github-PR-finalize-review.png" width="600" />
 
 
 
@@ -80,16 +80,18 @@ waarvan gevraagd wordt deze te mergen in de **target branch**. Op het tabblad *c
 
 - Je kan rechts in het *Conversations* scherm zien wanneer de reviewers klaar zijn met de review en de wijzigingen 
   *approved* hebben (groen vinkje). 
-  <img alt="Approved" src="images/github-PR-approved.png" width="300" />
+  <img alt="Approved" src="../images/github-PR-approved.png" width="300" />
 
-- Onderin het *Conversations* scherm kan je je PR mergen. Er wordt aangegeven of er [merge conflicts](./git-merge-conflict.md)
+- Onderin het *Conversations* scherm kan je je PR mergen. Er wordt aangegeven of er [merge conflicts](git-merge-conflict.md)
   zijn. Als er conflicten zijn, dan moet je die eerst oplossen voor de branch gemerged kan worden.    
   Wanneer je niet zo bekend bent met Git kan je bij het mergen van de pull request voor de simpelste optie kiezen in de dropdown:
   *Create merge commit*: Klik *merge pull request* -> klik *confirm merge*.    
   Je kan altijd in een later stadium nog branches verwijderen of commits rebasen. Ook daarover kan je in je team afspraken maken.
   
-  <img alt="Approved" src="images/github-PR-merge.png" width="600" />
+  <img alt="Approved" src="../images/github-PR-merge.png" width="600" />
 
 
 Je branch is nu gemerged in de target branch! 
-Vergeet de target branch niet lokaal te [pullen](./git-pull-from-remote.md).
+Vergeet de target branch niet lokaal te [pullen](git-pull-from-remote.md).
+
+[HOME](../README.md)

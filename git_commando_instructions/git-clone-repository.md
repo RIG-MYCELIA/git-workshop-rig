@@ -15,9 +15,9 @@ Het wordt door de eigenaar(s) van een repository bepaald of andere mensen rechte
 Op de hoofdpagina van het project dat je wil clonen op Github of Gitlab vind je een 
 dropdown menu knop:   
 **Clone** (Gitlab)   
-<img alt="Git areas" src="images/clone-knop-gitlab.png" width="600" />  
+<img alt="Git areas" src="../images/clone-knop-gitlab.png" width="600" />  
 of **Code** (Github)    
-<img alt="Git areas" src="images/clone-knop-github.png" width="600" />  
+<img alt="Git areas" src="../images/clone-knop-github.png" width="600" />  
 
 In het clone dropdown menu kan je (o.a.) kiezen uit clonen met SSH of met HTTPS. Wanneer je nog geen ssh hebt ingesteld 
 gebruikt je de HTTPS URL.   
@@ -31,6 +31,6 @@ bijvoorbeeld:
 `$ git clone https://github.com/jouwGebruikersnaam/jouwRepositorynaam.git`   
    
    
-<img alt="Clone my first repo" src="images/new-repo-clone.png" width="400" />
+<img alt="Clone my first repo" src="../images/new-repo-clone.png" width="400" />
 
-[HOME](./README.md)
+[HOME](../README.md)
