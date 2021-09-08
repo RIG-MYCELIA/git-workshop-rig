@@ -68,7 +68,7 @@ testen, voer je het volgende commando uit in de terminal:
 $ ssh -T git@github.com
 ```
 
-Mogelijkerwijs wordt er nu een waarschuwing getoond die er ongeveer uit ziet als volgt:
+Mogelijkerwijs wordt er nu een waarschuwing getoond die er ongeveer als volgt uitziet:
 
 ```
 > The authenticity of host 'github.com (IP ADDRESS)' can't be established.
