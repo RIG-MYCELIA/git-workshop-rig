@@ -39,7 +39,7 @@ Let erop dat in de Windows *cmd* de paden back slashes `\` ipv forward slashes `
 - [Lokale wijzigingen pushen naar een remote d.m.v. `push`](git_commando_instructions/git-push-naar-remote-repo.md)
 - [Remote wijzigingen pullen naar de lokale repo d.m.v. `pull`](git_commando_instructions/git-pull-from-remote.md)
 - [Een merge conflict oplossen](git_commando_instructions/git-merge-conflict.md)
-- [Git tekst editor gebruiken of wijzigen](./git-editor.md)
+- [Git tekst editor gebruiken of wijzigen](git_commando_instructions/git-editor.md)
 
 #### Samenwerken aan een repo
 - [Een branch aanmaken d.m.v. `branch`](git_commando_instructions/git-branch.md)
