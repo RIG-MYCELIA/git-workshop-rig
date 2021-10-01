@@ -9,7 +9,7 @@ Om de default editor op Windows te veranderen naar de standaard notepad kan je h
 
 `git config --global core.editor notepad`
 
-Voor een overzicht van andere editors en/of andere operating systems, [zie deze link](git config --global core.editor "Notepad++ -w").
+Voor een overzicht van andere editors en/of andere operating systems, [zie deze link](https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config).
 
 ## Werken met de vim editor
 Om je commitmessage te typen in *vim* en er weer uit te komen, doe je het volgende:   
