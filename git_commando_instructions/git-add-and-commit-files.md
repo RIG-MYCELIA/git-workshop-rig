@@ -63,19 +63,13 @@ erachter tussen de aanhalingstekens:
    
 
 <img alt="Commit" src="../images/new-repo-commit.png" width="400" />   
-    
-   
 
-#### Committen met de vim editor
-Wanneer je enkel `git commit` uitvoert, wordt de default editor die je voor git gekozen hebt geopend.  
+#### Committen met de Git tekst editor
+Wanneer je enkel `git commit` uitvoert, wordt de default tekst editor die je voor git gekozen hebt geopend.  
 Wanneer je je default editor niet hebt aangepast is dit de *vim* editor:
 
 <img alt="Commit vim" src="../images/git-commit-vim.png" width="400" />  
 
-Om je commitmessage te typen in *vim* en er weer uit te komen, doe je het volgende:   
-- type `i` (insert)
-- type je commit message
-- type `esc` (ga uit de insert modus)
-- type `:wq` (write & quit)
+Voor meer informatie, zie: [Git tekst editor gebruiken](./git-editor.md)
 
 [HOME](../README.md)

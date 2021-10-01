@@ -40,9 +40,13 @@ Bijvoorbeeld:
 
 4. Voeg de wijzigingen toe aan de merge commit waar je aan werkt d.m.v. `git add -u` of `git add [filename]`
 
-5. Maak de merge af met een `git commit`. Het *commitmessage* is hierbij optioneel. Wanneer je enkel `git commit` runt in
-een merge, zal er een commitmessage voorgesteld worden in je default editor 
-   (zie ook [git commit en gebruik van de vim editor](git-add-and-commit-files.md))
+5. Maak de merge af met een `git commit`. Het *commitmessage* is hierbij optioneel, omdat deze automatisch gegenereerd wordt.
+   Wanneer je enkel `git commit` runt in een merge, zal er een commitmessage voorgesteld worden in je default tekst editor. 
+   Wanneer je de default editor niet hebt aangepast is dit de *vim* editor:
+
+   <img alt="Commit vim" src="../images/git-commit-vim.png" width="400" />  
+
+   Voor meer informatie, zie: [git commit](git-add-and-commit-files.md) en [Git tekst editor gebruiken](./git-editor.md)
    
 
 [HOME](../README.md)

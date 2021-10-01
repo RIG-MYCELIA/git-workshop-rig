@@ -46,9 +46,16 @@ Voor meer info, voer `git push --help` uit.
 ### Remote changes
 
 Als er wijzigingen zijn in de remote branch, zul je eerst moeten *pullen* d.m.v. `git pull`, 
-zie [hier](git-pull-from-remote.md) hoe je dat doet.
+zie [hier hoe je dat doet](git-pull-from-remote.md).
 
 <img alt="git push rejected, remote changes" src="../images/push-pull-cannotpush-remote-changes.png" width="400" />
 
+Wanneer de wijzigingen die je van de remote pullt gemerged moeten worden met de lokale wijzigingen,
+krijg je een 'merge commit'. Om deze commit af te ronden wordt de default tekst editor die je voor git gekozen hebt geopend.  
+Wanneer je je default editor niet hebt aangepast is dit de *vim* editor:
+
+<img alt="Commit vim" src="../images/git-commit-vim.png" width="400" />  
+
+Voor meer informatie, zie: [Git tekst editor gebruiken](./git-editor.md)
 
 [HOME](../README.md)

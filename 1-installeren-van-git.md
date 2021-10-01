@@ -61,4 +61,12 @@ Als je 'commit' sla je de status van je project op in Git.
 De `user.name` is vrij te kiezen, maar wanneer je een platform zoals Gitlab of Github gebruikt moet de `user.email` gelijk zijn aan het 
 emailadres waarmee je op dat platform geregistreerd bent. 
 
+Wanneer je op een later moment toch de default editor wil wijzigen van Git, kan dit d.m.v. het volgende commando:
+
+`git config --global core.editor notepad`
+
+Bovenstaand commando zorgt er op Windows voor dat de standaard notepad geopend wordt bij bijvoorbeeld commits of merges.
+Voor een overzicht van andere editors en/of andere operating systems, [zie deze link](git config --global core.editor "Notepad++ -w").
+Voor instructies voor het gebruik van de tekst editor, zie: [Git tekst editor gebruiken](./git-editor.md)
+
 [HOME](./README.md)

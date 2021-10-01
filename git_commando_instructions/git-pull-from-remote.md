@@ -48,5 +48,13 @@ ongestoord kan *pullen*.
 
 <img alt="git stash" src="../images/push-pull-stash.png" width="400" />
 
+#### Merge commit bij het pullen en de Git tekst editor
+Wanneer de wijzigingen die je van de remote binnenhaalt gemerged (samengevoegd) moeten worden met de lokale wijzigingen,
+krijg je een 'merge commit'. Om deze commit af te ronden wordt de default tekst editor die je voor git gekozen hebt geopend.  
+Wanneer je je default editor niet hebt aangepast is dit de *vim* editor:
+
+<img alt="Commit vim" src="../images/git-commit-vim.png" width="400" />  
+
+Voor meer informatie, zie: [Git tekst editor gebruiken](./git-editor.md)
 
 [HOME](../README.md)
